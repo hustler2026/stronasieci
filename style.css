@@ -65,3 +65,5 @@ button.btn1:hover {
     grid-template-columns: auto auto auto;
     place-items: center;
 }
+a {   
+    text-decoration: none; }
