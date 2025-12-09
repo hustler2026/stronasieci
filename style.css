@@ -39,6 +39,7 @@ body {
 
 .card img {
     width: 100%;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -64,6 +65,26 @@ button.btn1:hover {
     display: grid;
     grid-template-columns: auto auto auto;
     place-items: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    place-items: center;
+}
+button.btn{
+    padding: 10px 20px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button.btn:hover {
+    background: #0b7dda;
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
 a {   
     text-decoration: none;
